@@ -4,11 +4,28 @@ body{
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color: aqua;
 }
 
 header{
-  background-color: orange;
+  height: 20vh;
+  display: flex;
+  justify-content: center; /* Centre les éléments horizontalement */
+  align-items: center; /* Centre les éléments verticalement */
+}
+
+#logo_gf{
+  height: 100%;
+  width: auto;
+}
+
+#logo_mtg{
+  height: 100%;
+  width: auto;
+}
+
+img{
+  width: 10%; /* Limite la largeur de l'image à 100% de son conteneur */
+  height: auto; /* Ajuste automatiquement la hauteur pour maintenir les proportions */
 }
 
 #barre{
@@ -17,11 +34,12 @@ header{
 
 #cartes{
   background-color: red;
+  height: 500vh;
 }
 
 footer{
   margin-top: auto;
-  height: 20vh;
+  height: 15vh;
   background-color: green;
 }
 
