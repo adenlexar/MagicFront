@@ -4,12 +4,15 @@
   <img src="../assets/logo_mtg.png" alt="Logo MTG" id="logo_mtg">
 </header>
 
-<div id = "barre">
-  <p>la barre de recherche</p>
+<div class = "barre">
+  <input type="text" placeholder="Rechercher...">
 </div>
 
-<div id = "cartes">
-  <p>les cartes</p>
+<div class = "card-container">
+  <mat-card *ngFor="let card of magicCards">
+    <img mat-card-image [ngSrc]="card.img" alt="Magic Card" fill="on">
+    <!-- Vous pouvez ajouter d'autres éléments comme le titre ou la description ici -->
+  </mat-card>
 </div>
 
 <footer>

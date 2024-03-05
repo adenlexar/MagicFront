@@ -1,3 +1,5 @@
+@import "@angular/material/prebuilt-themes/indigo-pink.css";
+
 body{
   margin: 0;
   padding: 0;
@@ -28,18 +30,22 @@ img{
   height: auto; /* Ajuste automatiquement la hauteur pour maintenir les proportions */
 }
 
-#barre{
-  background-color: darkred;
+.barre {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-#cartes{
-  background-color: red;
-  height: 500vh;
+.barre input[type="text"] {
+  width:33%;
 }
 
 footer{
   margin-top: auto;
   height: 15vh;
-  background-color: green;
+  background-color: #1D9BDD;
 }
 
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
