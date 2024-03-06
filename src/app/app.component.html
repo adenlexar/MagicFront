@@ -8,12 +8,12 @@
   <input type="text" placeholder="Rechercher...">
 </div>
 
-<div class = "card-container">
-  <mat-card *ngFor="let card of magicCards">
-    <img mat-card-image [ngSrc]="card.img" alt="Magic Card" fill="on">
-    <!-- Vous pouvez ajouter d'autres éléments comme le titre ou la description ici -->
-  </mat-card>
-</div>
+  <div class = "card-grid">
+    <mat-card *ngFor="let card of magicCards">
+      <img mat-card-image [ngSrc]="card.img" alt="Magic Card" fill="">
+      <!-- Vous pouvez ajouter d'autres éléments comme le titre ou la description ici -->
+    </mat-card>
+  </div>
 
 <footer>
   <p>footer</p>

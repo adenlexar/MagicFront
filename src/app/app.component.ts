@@ -13,6 +13,20 @@ import {NgForOf, NgOptimizedImage} from "@angular/common";
 export class AppComponent {
   title = 'MagicFront';
   magicCards: any = [
-    { "img": "../assets/card_mock.png" } //LE TABLEAU DE MOCK
+    { "img": "../assets/card_mock.png" },
+    { "img": "../assets/card_mock.png" },
+    { "img": "../assets/card_mock.png" },
+    { "img": "../assets/card_mock.png" },
+    { "img": "../assets/card_mock.png" },
+    { "img": "../assets/card_mock.png" },
+    { "img": "../assets/card_mock.png" },
+    { "img": "../assets/card_mock.png" },
+    { "img": "../assets/card_mock.png" },
+    { "img": "../assets/card_mock.png" },
+    { "img": "../assets/card_mock.png" },
+    { "img": "../assets/card_mock.png" },
+    { "img": "../assets/card_mock.png" },
+    { "img": "../assets/card_mock.png" }
+    //LE TABLEAU DE MOCK
   ];
 }

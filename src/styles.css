@@ -25,15 +25,24 @@ header{
   width: auto;
 }
 
-img{
-  width: 10%; /* Limite la largeur de l'image à 100% de son conteneur */
-  height: auto; /* Ajuste automatiquement la hauteur pour maintenir les proportions */
+.card-grid{
+  margin: 0 25vw 0 25vw;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+}
+
+mat-card{
+  margin-bottom: 5vh;
+  width:15vw;
+  height: 20vw;
 }
 
 .barre {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 5vh;
 }
 
 .barre input[type="text"] {
