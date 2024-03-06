@@ -26,9 +26,9 @@ header{
 }
 
 .card-grid{
-  margin: 0 25vw 0 25vw;
+  margin: 0 15vw 0 15vw;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   justify-items: center;
 }
 
