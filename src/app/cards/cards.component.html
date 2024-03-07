@@ -10,7 +10,7 @@
 
 <div class = "card-grid">
   <mat-card *ngFor="let card of magicCards">
-    <img mat-card-image [ngSrc]="card.img" alt="Magic Card" fill="" (click) = naviguerAvecId(card.id)>
+    <img mat-card-image [ngSrc]="card.img" alt="Magic Card" fill="" (click)=naviguerAvecId(card.id)>
     <!-- Vous pouvez ajouter d'autres éléments comme le titre ou la description ici -->
   </mat-card>
 </div>

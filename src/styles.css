@@ -39,6 +39,7 @@ mat-card{
   margin-bottom: 5vh;
   width:15vw;
   height: 20vw;
+  cursor: pointer;
 }
 
 .barre {

@@ -29,6 +29,6 @@ export class CardsComponent {
   ];
 
   naviguerAvecId(id:number) {
-    this.router.navigate(['/card-details/', id]);
+    this.router.navigate(['/cards', id]);
   }
 }
