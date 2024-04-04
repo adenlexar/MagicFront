@@ -1,0 +1,31 @@
+.wrapper{
+  display: flex;
+  justify-content: center; /* Centre les éléments horizontalement */
+  align-items: center; /* Centre les éléments verticalement */
+  flex-direction: row;
+  height: 80vh;
+  margin: 0 15vw 5vh 15vw;
+  background-color: darkred;
+}
+.left{
+  display: flex;
+  justify-content: center; /* Centre les éléments horizontalement */
+  align-items: center; /* Centre les éléments verticalement */
+  background-color: blue;
+  height: 100%;
+  width: 100%;
+}
+
+mat-card{
+  width: 45vh;
+  height: 60vh;
+}
+
+.right{
+  background-color: green;
+  height: 100%;
+  width: 100%;
+}
+
+
+

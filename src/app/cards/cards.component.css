@@ -1,0 +1,26 @@
+
+.card-grid{
+  margin: 0 15vw 0 15vw;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+}
+
+mat-card{
+  margin-bottom: 5vh;
+  width:15vw;
+  height: 20vw;
+  cursor: pointer;
+}
+
+.barre {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+
+.example-full-width {
+  height: 100%;
+  width:33vw;
+}
