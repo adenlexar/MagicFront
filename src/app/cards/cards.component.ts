@@ -2,16 +2,23 @@ import { Component } from '@angular/core';
 import {Router} from "@angular/router";
 import {MatCard, MatCardImage} from "@angular/material/card";
 import {NgForOf, NgOptimizedImage} from "@angular/common";
+import {MatFormField, MatLabel} from "@angular/material/form-field";
+import {MatInput} from "@angular/material/input";
+import {MatHint} from "@angular/material/form-field";
 
 @Component({
   selector: 'app-cards',
   standalone: true,
-    imports: [
-        MatCard,
-        MatCardImage,
-        NgForOf,
-        NgOptimizedImage
-    ],
+  imports: [
+    MatCard,
+    MatCardImage,
+    NgForOf,
+    NgOptimizedImage,
+    MatFormField,
+    MatLabel,
+    MatInput,
+    MatHint
+  ],
   templateUrl: './cards.component.html',
   styleUrl: './cards.component.css'
 })

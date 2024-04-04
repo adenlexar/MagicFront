@@ -49,8 +49,9 @@ mat-card{
   margin-bottom: 5vh;
 }
 
-.barre input[type="text"] {
-  width:33%;
+.example-full-width {
+  height: 100%;
+  width:33vw;
 }
 
 footer{

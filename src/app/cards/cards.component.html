@@ -1,11 +1,10 @@
 <body>
-<header>
-  <img src="../../assets/logo_gf.png" alt="Logo GF" id="logo_gf">
-  <img src="../../assets/logo_mtg.png" alt="Logo MTG" id="logo_mtg">
-</header>
 
 <div class = "barre">
-  <input type="text" placeholder="Rechercher...">
+    <mat-form-field class="example-full-width">
+      <mat-label class ="example-label">Search a card</mat-label>
+      <input matInput #message maxlength="256" placeholder="Ex. Rampant growth">
+    </mat-form-field>
 </div>
 
 <div class = "card-grid">
@@ -15,7 +14,4 @@
   </mat-card>
 </div>
 
-<footer>
-  <p>©adenlexar et fluflo</p>
-</footer>
 </body>
